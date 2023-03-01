@@ -11,6 +11,10 @@ h3 {
   font-size: 2vw;
 }
 
+p {
+  font-size: 1.2vw;
+}
+
 /*HEADER*/
 header {
   display: flex;
@@ -41,17 +45,6 @@ nav a {
 #minside_icon {
   width: 2%;
   margin-top: -2%;
-}
-
-/*SE BESTILLING*/
-
-.bestillingsunderpunkter {
-  display: flex;
-}
-
-.column2 {
-  display: flex;
-  flex-direction: column;
 }
 
 /* FOOTER */
@@ -178,6 +171,57 @@ nav a {
   border-radius: 20px;
   border: #db2e27;
   cursor: pointer;
+}
+
+/*SE BESTILLING*/
+
+.procesbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+#købsoversigt {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bestillingsunderpunkter {
+  display: flex;
+}
+
+#oversigt {
+  width: 70%;
+}
+
+#oversigt p {
+  padding-top: 15%;
+}
+
+#oversigt form {
+  margin-top: 15%;
+}
+
+#oversigt form input {
+  font-size: 1.2vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 4%;
+  width: 70%;
+}
+
+#ændreknapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+#ændreknapper input {
+  margin-top: 50%;
+  font-size: 1vw;
 }
 
 @media only screen and (max-width: 890px) {
