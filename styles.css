@@ -241,6 +241,7 @@ nav a {
 .filter {
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .filter div {
@@ -256,6 +257,7 @@ nav a {
   background-color: white;
   cursor: pointer;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 .filterDiv {
@@ -343,4 +345,36 @@ i {
 #drage,
 #meatlover {
   background-color: #816666;
+}
+
+
+/* SÅDAN FUNGERER NIPPON */
+
+.centerh1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#infographic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#infographic img{
+  width: 10%;
+  padding: 50px;
+}
+#infographic i{
+  font-size: 5vw;
+  color: #db2e27;
+}
+
+#pilned{
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  color: #db2e27;
+  margin-top: 130px;
 }
