@@ -43,37 +43,15 @@ nav a {
   margin-top: -2%;
 }
 
-/*FORSIDE*/
-#forside {
-  background-image: url(images/bigphoto.png);
-  background-size: cover;
-  background-position-y: 100%;
-  background-repeat: no-repeat;
+/*SE BESTILLING*/
+
+.bestillingsunderpunkter {
+  display: flex;
 }
 
-#forsidetekst {
-  width: 37%;
-  margin-left: 7.6%;
-  padding-top: 10%;
-}
-
-#forsidetekst h3 {
-  padding-top: 5%;
-  padding-bottom: 8%;
-}
-
-#forsideknap {
-  background-color: #db2e27;
-  color: #f8f8f8;
-  font-size: 2.3vw;
-
-  padding: 3.5%;
-  margin-top: 5%;
-  margin-bottom: 47.2%;
-
-  border-radius: 20px;
-  border: #db2e27;
-  cursor: pointer;
+.column2 {
+  display: flex;
+  flex-direction: column;
 }
 
 /* FOOTER */
@@ -169,6 +147,39 @@ nav a {
   padding-bottom: 20px;
 }
 
+/*FORSIDE*/
+#forside {
+  background-image: url(images/bigphoto.png);
+  background-size: cover;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+}
+
+#forsidetekst {
+  width: 37%;
+  margin-left: 7.6%;
+  padding-top: 10%;
+}
+
+#forsidetekst h3 {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+#forsideknap {
+  background-color: #db2e27;
+  color: #f8f8f8;
+  font-size: 2.3vw;
+
+  padding: 3.5%;
+  margin-top: 5%;
+  margin-bottom: 47.2%;
+
+  border-radius: 20px;
+  border: #db2e27;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 890px) {
   /*SKRIFTREGLER*/
   h1 {
@@ -226,29 +237,26 @@ nav a {
   }
 }
 
-
-
 /* MÅLTIDSKASSE SIDE */
-.filter{
+.filter {
   display: flex;
   justify-content: space-around;
 }
 
-.filter div{
+.filter div {
   padding-left: px;
 }
-.filter h2{
+.filter h2 {
   margin-left: 10px;
 }
-.filter button{
-  border: solid #DB2E27 2px;
+.filter button {
+  border: solid #db2e27 2px;
   border-radius: 100px;
   padding: 5px 8px;
   background-color: white;
   cursor: pointer;
   margin-left: 10px;
 }
-
 
 .filterDiv {
   float: left;
@@ -264,8 +272,8 @@ nav a {
   margin-top: 50px;
 }
 /* Style the buttons */
-.btn{
-  border: solid #DB2E27 2px;
+.btn {
+  border: solid #db2e27 2px;
   border-radius: 50px;
   padding: 5px 10px;
   background-color: white;
@@ -274,13 +282,13 @@ nav a {
 .btn:hover {
   background-color: white;
 }
-.btn.active{
-  background-color: #DB2E27;
+.btn.active {
+  background-color: #db2e27;
   color: white;
 }
 
-.madkasse{
-  background-color: #81666F;
+.madkasse {
+  background-color: #81666f;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -289,7 +297,7 @@ nav a {
   padding-left: 20px;
   border-radius: 20px;
 }
-.madkasse img{
+.madkasse img {
   height: 300px;
 }
 i {
