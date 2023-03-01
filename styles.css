@@ -238,7 +238,7 @@ nav a {
   padding-left: px;
 }
 .filter h2{
-  margin-left: 10px;
+  padding: 10px;
 }
 .filter button{
   border: solid #DB2E27 2px;
@@ -263,7 +263,7 @@ nav a {
 .container {
   margin-top: 50px;
 }
-/* Style the buttons */
+/* Style buttons */
 .btn{
   border: solid #DB2E27 2px;
   border-radius: 50px;
@@ -277,6 +277,28 @@ nav a {
 .btn.active{
   background-color: #DB2E27;
   color: white;
+}
+.bestilbtn{
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #DB2E27;
+  color: white;
+  border: solid #DB2E27 2px;
+  padding: 10px;
+  float: right;
+  margin-top: 10px;
+}
+
+.container h3, 
+.container p,
+.container i,
+.container h4 {
+  padding-left: 10px;
+  margin-top: 25px;
+}
+.container h4{
+  margin-top: 60px;
+  font-size: 2vw;
 }
 
 .madkasse{
@@ -294,4 +316,14 @@ nav a {
 }
 i {
   font-size: 30pt;
+}
+
+#moderjord, #panda, #grøn, #hurtig{
+  background-color: #66816C;
+}
+#friskfrahavet, #begynder, #pandeluxe, #tokyo{
+  background-color: #667081;
+}
+#japanish, #fiji, #drage, #meatlover{
+  background-color: #816666;
 }
