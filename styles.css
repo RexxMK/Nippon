@@ -371,6 +371,30 @@ nav a {
   #copyright {
     font-size: 2.3vw;
   }
+
+  /* Infographic */
+  #infographic{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #infographic i{
+    transform: rotate(90deg);
+  }
+
+  /* Måltidskasser */
+  .filter{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    flex-direction: column;
+  }
+
+  #hurtig{
+    width: 190%;
+  }
+ 
 }
 
 /* MÅLTIDSKASSE SIDE */
@@ -380,9 +404,6 @@ nav a {
   margin-top: 50px;
 }
 
-.filter div {
-  padding-left: px;
-}
 .filter h2 {
   margin-left: 10px;
 }
@@ -450,8 +471,6 @@ nav a {
 .madkasse {
   background-color: #81666f;
   display: flex;
-  width: 100%;
-  flex-direction: row;
   text-decoration: none;
   color: white;
   padding-left: 20px;
@@ -488,15 +507,22 @@ i {
 .centerh1 {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #infographic {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
+#infographic img{
+  width: 15%;
+  padding: 50px;
+}
+
+
+#infographic i{
 #infographic img {
   width: 10%;
   padding: 50px;
@@ -511,7 +537,18 @@ i {
   justify-content: center;
   font-size: 5vw;
   color: #db2e27;
-  margin-top: 130px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+  padding-bottom: 200px;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 /* OM MÅLTIDSKASSE */
