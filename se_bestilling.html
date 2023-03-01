@@ -50,8 +50,8 @@
     <div id="købsoversigt">
       <div>
         <h1>Du er ved at bestille:</h1>
-        <div class="bestillingsunderpunkter">
-          <div class="column1">
+        <div id="bestillingsunderpunkter">
+          <div id="oversigt">
             <p>Ugentlig abonnement</p>
             <p>Måltidskasse 1</p>
             <p>Til 2 personer</p>
@@ -66,12 +66,36 @@
               />
             </form>
           </div>
-          <div class="column2">
-            <input type="button" id="knap" value="Ændre" />
-            <input type="button" id="knap" value="Ændre" />
-            <input type="button" id="knap" value="Ændre" />
-            <input type="button" id="knap" value="Ændre" />
-            <input type="button" id="knap" value="Indløs" />
+          <div id="ændreknapper">
+            <input type="checkbox" id="checkbox" />
+            <input type="button" id="ændreknap" value="Ændre" />
+            <input type="button" id="ændreknap" value="Ændre" />
+            <input type="button" id="ændreknap" value="Ændre" />
+            <input type="button" id="indløsknap" value="Indløs" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1>Prisoversigt</h1>
+        <div id="bestillingsunderpunkter">
+          <div id="oversigt">
+            <p>Pris</p>
+            <p>Levering</p>
+            <p>Rabat</p>
+            <hr />
+            <p><span style="font-weight: bold">Total pr. uge</span></p>
+            <hr />
+            <hr />
+          </div>
+          <div id="oversigt">
+            <p>xxx,-</p>
+            <p>xxx,-</p>
+            <p>xxx,-</p>
+            <hr />
+            <p><span style="font-weight: bold">xxx,-</span></p>
+            <hr />
+            <hr />
           </div>
         </div>
       </div>
