@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Måltidskasser</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/dcd3d431d9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<div class="filter">
+    <div>
+    <h2>Antal personer</h2>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+    </div>
+    <div>
+    <h2>Antal dage</h2>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+    </div>
+
+    <div id="myBtnContainer">
+        <h2>Vis mig</h2>
+        <button class="btn active" onclick="filterSelection('all')">Vis alle</button>
+        <button class="btn" onclick="filterSelection('økonomiske')">De økonomiske</button>
+        <button class="btn" onclick="filterSelection('hurtige')">De hurtige</button>
+        <button class="btn" onclick="filterSelection('grønne')">De grønne</button>
+        <button class="btn" onclick="filterSelection('børnevenlige')">De børnevenlige</button>
+        <button class="btn" onclick="filterSelection('stærke')">De stærke</button>
+    </div>
+</div>
+
+<div class="container">
+  <div class="filterDiv hurtige">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Hurtig-kassen</h3>
+            <p>Denne kasse er til dem med en travl hverdag, som ønsker et lækkert måltid <b>Læs mere...</b></p>
+            <i class="fa-solid fa-leaf"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 5.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv all">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Pandeluxe-kassen</h3>
+            <p>Ønsker du den fulde gastronomiske japanske oplevelse, så er denne kasse noget for dig! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 9.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv hurtige stærke">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Frisk fra havet-kassen</h3>
+            <p>Du finder alt godt fra havet i denne kasse! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-pepper-hot"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 8.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv stærke">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Meatlover-kassen</h3>
+            <p>Gå ikke ned på proteiner. Denne kasse er for dig som elsker kød! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-pepper-hot"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 10.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv stærke">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Drage-kassen</h3>
+            <p>En sjov og oplevelsesrig kasse, som sender dig på opdagelse i det japanske køkken! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-pepper-hot"></i>
+            <i class="fa-solid fa-pepper-hot"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 2.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv økonomiske stærke">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Begynder-kassen</h3>
+            <p>Hvis du er ny i det japanske køkken så er denne kasse den rette for dig! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-pepper-hot"></i>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 1.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv børnevenlige">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Panda-kassen</h3>
+            <p>En vegetarisk og oplevelsesrig kasse! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 5.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv grønne">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Moder jord-kassen</h3>
+            <p>Vegansk når det er bedst. Skån miljøet og skån din mave! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 7.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv økonomiske stærke">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Japanish-kassen</h3>
+            <p>Traditionelle retter med et hint af det japanske køkken hvor alle kan være med! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-pepper-hot"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 3.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv grønne">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Grøn-kassen</h3>
+            <p>Alt det grønne, samlet i en kasse! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-leaf"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 4.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv hurtige børnevenlige">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Tokyo</h3>
+            <p>Traditionelle retter med et hint af det japanske køkken hvor alle kan være med! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 11.png" alt="">
+        </div>
+    </a>
+  </div>
+  <div class="filterDiv økonomiske børnevenlige">
+    <a href="https://www.google.com/?client=safari" class="madkasse">
+        <div class="hurtig-kassen">
+            <h3>Fiji-kassen</h3>
+            <p>En sjov og oplevelsesrig kasse, som sender dig på opdagelse i det japanske køkken! <b>Læs mere...</b></p>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-wheat-awn"></i>
+            <h4>400 kr</h4>
+        </div>
+        <div class="hurtig-kassen">
+            <img src="images/madbillede 6.png" alt="">
+        </div>
+    </a>
+  </div>
+</div>
+    
+</body>
+</html>
