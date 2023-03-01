@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nippon</title>
+    <title>Se bestilling</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <script
@@ -14,48 +14,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <main id="forside">
-      <!--HEADER-->
-      <header>
-        <div id="logo">
-          <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
-        </div>
-
-        <!--NAVIGATION-->
-        <nav>
-          <div>
-            <a href="måltidskasser.html">Måltidskasser</a>
-          </div>
-          <div>
-            <a href="#">Sådan fungerer Nippon</a>
-          </div>
-          <div>
-            <a href="#">Inspiration</a>
-          </div>
-          <div>
-            <a href="#">Bæredygtighed</a>
-          </div>
-          <div>
-            <a href="#">Kontakt</a>
-          </div>
-          <div id="minside_icon">
-            <a href="#"><img src="svg/minside.svg" alt="Min side" /></a>
-          </div>
-        </nav>
-      </header>
-
-      <!--FORSIDETEKST-->
-      <div id="forsidetekst">
-        <h1>Japanskinspirerede måltidskasser</h1>
-        <h3>
-          Med en måltidskasse fra Nippon kommer du på oplevelse i det japanske
-          køkken
-        </h3>
-        <a href="måltidskasser.html"
-          ><button id="forsideknap">Se måltidskasser</button></a
-        >
+    <!--HEADER-->
+    <header>
+      <div id="logo">
+        <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
       </div>
-    </main>
+
+      <!--NAVIGATION-->
+      <nav>
+        <div>
+          <a href="måltidskasser.html">Måltidskasser</a>
+        </div>
+        <div>
+          <a href="#">Sådan fungerer Nippon</a>
+        </div>
+        <div>
+          <a href="#">Inspiration</a>
+        </div>
+        <div>
+          <a href="#">Bæredygtighed</a>
+        </div>
+        <div>
+          <a href="#">Kontakt</a>
+        </div>
+        <div id="minside_icon">
+          <a href="#"><img src="svg/minside.svg" alt="Min side" /></a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="procesbar">
+      <img src="images/se_bestilling_bar.png" alt="Se bestilling" />
+    </div>
+
+    <div id="købsoversigt">
+      <div>
+        <h1>Du er ved at bestille:</h1>
+        <div class="bestillingsunderpunkter">
+          <div class="column1">
+            <p>Ugentlig abonnement</p>
+            <p>Måltidskasse 1</p>
+            <p>Til 2 personer</p>
+            <p>Til 3 dage</p>
+            <form>
+              <label for="input"></label>
+              <input
+                type="text"
+                id="input"
+                placeholder="Indtast rabatkode"
+                value=""
+              />
+            </form>
+          </div>
+          <div class="column2">
+            <input type="button" id="knap" value="Ændre" />
+            <input type="button" id="knap" value="Ændre" />
+            <input type="button" id="knap" value="Ændre" />
+            <input type="button" id="knap" value="Indløs" />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--FOOTER-->
     <footer>
