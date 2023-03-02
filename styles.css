@@ -391,8 +391,8 @@ nav a {
     flex-direction: column;
   }
 
-  #hurtig{
-    width: 190%;
+  .madkasse{
+    width: 100%;
   }
  
 }
@@ -420,9 +420,13 @@ nav a {
 .filterDiv {
   float: left;
   display: none;
+  width: 97%;
   padding: 10px;
-  width: 45%;
-  padding-left: 50px;
+}
+@media only screen and (min-width: 890px){
+  .filterDiv{
+    width: 48%;
+  }
 }
 .show {
   display: block;
@@ -471,9 +475,9 @@ nav a {
 .madkasse {
   background-color: #81666f;
   display: flex;
+  justify-content: space-between;
   text-decoration: none;
   color: white;
-  padding-left: 20px;
   border-radius: 20px;
 }
 .madkasse img {
@@ -515,15 +519,14 @@ i {
   justify-content: center;
   align-items: center;
   margin-top: 25px;
+  width: 100%;
 }
 #infographic img{
-  width: 15%;
   padding: 50px;
+  width: 10%;
 }
 
-
 #infographic i{
-#infographic img {
   width: 10%;
   padding: 50px;
 }
