@@ -582,3 +582,22 @@ html{
 .flex {
   display: flex;
 }
+
+
+/* Fejl 404 side */
+
+.fejl{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fejl img{
+  width: 55%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.fejl h2,
+.fejl h3,
+.fejl button{
+  margin: 25px;
+}
