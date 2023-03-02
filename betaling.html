@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nippon</title>
+    <title>Betaling</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <script
@@ -14,48 +14,82 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <main id="forside">
-      <!--HEADER-->
-      <header>
-        <div id="logo">
-          <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
+    <!--HEADER-->
+    <header>
+      <div id="logo">
+        <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
+      </div>
+
+      <!--NAVIGATION-->
+      <nav>
+        <div>
+          <a href="måltidskasser.html">Måltidskasser</a>
         </div>
+        <div>
+          <a href="sådanfungerernippon.html">Sådan fungerer Nippon</a>
+        </div>
+        <div>
+          <a href="fejl404.html">Inspiration</a>
+        </div>
+        <div>
+          <a href="#">Bæredygtighed</a>
+        </div>
+        <div>
+          <a href="fejl404.html">Kontakt</a>
+        </div>
+        <div id="minside_icon">
+          <a href="fejl404.html"
+            ><img src="svg/minside.svg" alt="Min side"
+          /></a>
+        </div>
+      </nav>
+    </header>
 
-        <!--NAVIGATION-->
-        <nav>
-          <div>
-            <a href="måltidskasser.html">Måltidskasser</a>
-          </div>
-          <div>
-            <a href="sådanfungerernippon.html">Sådan fungerer Nippon</a>
-          </div>
-          <div>
-            <a href="fejl404.html">Inspiration</a>
-          </div>
-          <div>
-            <a href="#">Bæredygtighed</a>
-          </div>
-          <div>
-            <a href="fejl404.html">Kontakt</a>
-          </div>
-          <div id="minside_icon">
-            <a href="fejl404.html"><img src="svg/minside.svg" alt="Min side" /></a>
-          </div>
-        </nav>
-      </header>
+    <!--PROCESBAR-->
+    <div class="procesbar">
+      <img src="images/betaling_bar.png" alt="Procesbar" />
+    </div>
 
-      <!--FORSIDETEKST-->
-      <div id="forsidetekst">
-        <h1>Japanskinspirerede måltidskasser</h1>
-        <h3>
-          Med en måltidskasse fra Nippon kommer du på oplevelse i det japanske
-          køkken
-        </h3>
+    <!--BETALINGSFORM-->
+    <div id="kortoplysninger">
+      <div id="kortnummer">
+        <div>
+          <p>Kortnummer</p>
+          <input type="text" value="" />
+        </div>
       </div>
-      <div id="forsideknap">
-        <a href="måltidskasser.html">Se måltidskasser</a>
+
+      <div id="udløber_ccv">
+        <div id="udløber">
+          <p>Udløber</p>
+          <input type="text" value="" />
+        </div>
+        <div id="ccv">
+          <p>CCV</p>
+          <input type="text" value="" />
+        </div>
       </div>
-    </main>
+      <div id="kortholder">
+        <div>
+          <p>Kortholders navn</p>
+          <input type="text" value="" />
+        </div>
+      </div>
+    </div>
+
+    <!--TILBAGE ELLER FORTSÆT-->
+    <div class="fortsæt">
+      <div class="tilbage">
+        <a href="levering.html"
+          ><img src="svg/chevron-left-solid.svg" alt="Tilbagepil" /> Tilbage til
+          Levering</a
+        >
+      </div>
+
+      <div class="videre">
+        <a href="#">Send bestilling</a>
+      </div>
+    </div>
 
     <!--FOOTER-->
     <footer>
