@@ -208,7 +208,7 @@ nav a {
 
 #bestilling {
   display: flex;
-  width: 16.2%;
+  width: 20%;
 
   justify-content: space-between;
 }
@@ -218,8 +218,8 @@ nav a {
 }
 
 #bestilling #ændreknapper input {
-  margin-bottom: 61%;
-  margin-top: 15%;
+  margin-bottom: 28.5%;
+  margin-top: 10%;
 }
 
 #bestilling form input {
@@ -237,6 +237,12 @@ nav a {
 
 #ændreknapper input {
   background-color: #f8f8f8;
+  border: 2px solid black;
+  font-size: 0.9vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #prisoversigt {
@@ -304,6 +310,43 @@ nav a {
   margin-top: -49%;
   margin-left: 35.5%;
   z-index: -1;
+}
+
+/*BETALING*/
+#kortoplysninger {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37.5%;
+  margin-top: 4%;
+}
+
+#kortoplysninger div {
+  padding-bottom: 1.2%;
+}
+
+#kortoplysninger p {
+  font-size: 1.4vw;
+}
+
+#kortoplysninger input {
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+  padding-right: 26%;
+
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#udløber_ccv {
+  display: flex;
+  justify-content: space-between;
+  width: 35.3%;
+}
+
+#udløber_ccv input {
+  padding-right: 28%;
+  padding-top: 14%;
+  padding-bottom: 14%;
 }
 
 @media only screen and (max-width: 890px) {
@@ -391,6 +434,11 @@ nav a {
 
   .madkasse {
     width: 100%;
+  }
+
+  /*SE BESTILLING*/
+  .procesbar img {
+    width: 90%;
   }
 }
 

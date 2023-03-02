@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Se bestilling</title>
+    <title>Betaling</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <script
@@ -26,95 +26,68 @@
           <a href="måltidskasser.html">Måltidskasser</a>
         </div>
         <div>
-          <a href="#">Sådan fungerer Nippon</a>
+          <a href="sådanfungerernippon.html">Sådan fungerer Nippon</a>
         </div>
         <div>
-          <a href="#">Inspiration</a>
+          <a href="fejl404.html">Inspiration</a>
         </div>
         <div>
           <a href="#">Bæredygtighed</a>
         </div>
         <div>
-          <a href="#">Kontakt</a>
+          <a href="fejl404.html">Kontakt</a>
         </div>
         <div id="minside_icon">
-          <a href="#"><img src="svg/minside.svg" alt="Min side" /></a>
+          <a href="fejl404.html"
+            ><img src="svg/minside.svg" alt="Min side"
+          /></a>
         </div>
       </nav>
     </header>
 
     <!--PROCESBAR-->
-
     <div class="procesbar">
-      <img src="images/se_bestilling_bar.png" alt="Se bestilling" />
+      <img src="images/betaling_bar.png" alt="Procesbar" />
     </div>
 
-    <!--BESTILLINGSOVERSIGT-->
-    <div id="bestillingsoverskrifter">
-      <div>
-        <h1>Du er ved at bestille:</h1>
-      </div>
-      <div>
-        <h1>Prisoversigt</h1>
-      </div>
-    </div>
-
-    <div id="bestillingsoverblik">
-      <div id="bestilling">
+    <!--BETALINGSFORM-->
+    <div id="kortoplysninger">
+      <div id="kortnummer">
         <div>
-          <p>Ugentlig abonnement</p>
-          <p>Måltidskasse 1</p>
-          <p>Til 2 personer</p>
-          <p>Til 3 dage</p>
-          <form>
-            <label for="input"></label>
-            <input
-              type="text"
-              id="input"
-              placeholder="Indtast rabatkode"
-              value=""
-            />
-          </form>
-        </div>
-        <div id="ændreknapper">
-          <input type="checkbox" id="checkbox" />
-          <input type="button" value="Ændre" />
-          <input type="button" value="Ændre" />
-          <input type="button" value="Ændre" />
-          <input type="button" id="indløsknap" value="Indløs" />
+          <p>Kortnummer</p>
+          <input type="text" value="" />
         </div>
       </div>
 
-      <div id="prisoversigt">
-        <div>
-          <p>Pris</p>
-          <p>Levering</p>
-          <p>Rabat</p>
-
-          <p><span style="font-weight: bold">Total pr. uge</span></p>
+      <div id="udløber_ccv">
+        <div id="udløber">
+          <p>Udløber</p>
+          <input type="text" value="" />
         </div>
-        <div id="pris">
-          <p>xxx,-</p>
-          <p>xxx,-</p>
-          <p>xxx,-</p>
-
-          <p><span style="font-weight: bold">xxx,-</span></p>
+        <div id="ccv">
+          <p>CCV</p>
+          <input type="text" value="" />
+        </div>
+      </div>
+      <div id="kortholder">
+        <div>
+          <p>Kortholders navn</p>
+          <input type="text" value="" />
         </div>
       </div>
     </div>
 
     <!--TILBAGE ELLER FORTSÆT-->
-
     <div class="fortsæt">
       <div class="tilbage">
-        <a href="måltidskasser.html"
+        <a href="levering.html"
           ><img src="svg/chevron-left-solid.svg" alt="Tilbagepil" /> Tilbage til
-          Måltidskasser</a
+          Levering</a
         >
       </div>
 
       <div class="videre">
-        <a href="levering.html">Til levering</a>
+        <a href="#">Send bestilling</a>
       </div>
     </div>
 
@@ -158,11 +131,6 @@
 
       <div id="copyright">
         <p>Copyright 2023 Nippon Aps CVR: 13374201</p>
-      </div>
-
-      <!--ILLUSTRATION-->
-      <div id="se_bestilling_gren">
-        <img src="svg/se_bestilling_gren.svg" alt="Gren" />
       </div>
     </footer>
   </body>
