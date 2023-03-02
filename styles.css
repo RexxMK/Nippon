@@ -248,10 +248,21 @@ nav a {
   display: flex;
   justify-content: space-between;
   margin-left: 3%;
+  margin-top: 6%;
 }
 
 .tilbage {
   display: flex;
+}
+
+.tilbage a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4vw;
+}
+
+.tilbage img {
+  width: 9%;
 }
 
 .videre {
@@ -259,7 +270,7 @@ nav a {
 }
 
 #til_levering_knap {
-  background-color: #ec8985;
+  background-color: #db2e27;
   color: #f8f8f8;
   font-size: 1.5vw;
   padding-top: 10%;
@@ -273,48 +284,13 @@ nav a {
   margin-bottom: 15%;
 }
 
-/*#købsoversigt {
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 4%;
-  display: flex;
-  justify-content: space-between;
+#se_bestilling_gren {
+  width: 37%;
+  position: relative;
+  margin-top: -49%;
+  margin-left: 35.5%;
+  z-index: -1;
 }
-
-#bestillingsunderpunkter {
-  display: flex;
-}
-
-#oversigt {
-  width: 70%;
-}
-
-#oversigt p {
-  padding-top: 15%;
-}
-
-#oversigt form {
-  margin-top: 15%;
-}
-
-#oversigt form input {
-  font-size: 1.2vw;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 4%;
-  width: 70%;
-}
-
-#ændreknapper {
-  display: flex;
-  flex-direction: column;
-  margin-top: 7%;
-}
-
-#ændreknapper input {
-  margin-top: 50%;
-  font-size: 1vw;
-}*/
 
 @media only screen and (max-width: 890px) {
   /*SKRIFTREGLER*/
@@ -373,28 +349,26 @@ nav a {
   }
 
   /* Infographic */
-  #infographic{
+  #infographic {
     display: flex;
     flex-direction: column;
-
   }
-  #infographic i{
+  #infographic i {
     transform: rotate(90deg);
   }
 
   /* Måltidskasser */
-  .filter{
+  .filter {
     display: flex;
     flex-direction: column;
   }
-  .container{
+  .container {
     flex-direction: column;
   }
 
-  #hurtig{
+  #hurtig {
     width: 190%;
   }
- 
 }
 
 /* MÅLTIDSKASSE SIDE */
@@ -516,13 +490,11 @@ i {
   align-items: center;
   margin-top: 25px;
 }
-#infographic img{
+#infographic img {
   width: 15%;
   padding: 50px;
 }
 
-
-#infographic i{
 #infographic img {
   width: 10%;
   padding: 50px;
@@ -540,14 +512,14 @@ i {
   margin-top: 50px;
   text-decoration: none;
 }
-.video{
+.video {
   display: flex;
   justify-content: center;
   padding-top: 130px;
   padding-bottom: 200px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
