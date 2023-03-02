@@ -269,7 +269,7 @@ nav a {
   width: 15%;
 }
 
-#til_levering_knap {
+.til_levering_knap {
   background-color: #db2e27;
   color: #f8f8f8;
   font-size: 1.5vw;
@@ -425,14 +425,14 @@ nav a {
   color: white;
 }
 .bestilbtn {
-  border-radius: 50px;
-  cursor: pointer;
   background-color: #db2e27;
-  color: white;
-  border: solid #db2e27 2px;
-  padding: 10px;
+  color: #f8f8f8;
+  font-size: 1.5vw;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid;
+  cursor: pointer;
   float: right;
-  margin-top: 10px;
 }
 
 .container h3,
@@ -498,13 +498,11 @@ i {
 }
 #infographic img {
   width: 15%;
-#infographic img{
   padding: 50px;
   width: 10%;
 }
 
 #infographic img {
-#infographic i{
   width: 10%;
   padding: 50px;
 }
@@ -537,7 +535,8 @@ html {
 .ommåltidskasse {
   display: flex;
   justify-content: center;
-  padding: 100px;
+  align-items: center;
+  padding: 50px;
   margin: 50px;
   margin-top: 75px;
   margin-bottom: 110px;
@@ -562,6 +561,17 @@ html {
 }
 
 
+@media only screen and (max-width: 890px){
+  .ommåltidskasse img{
+    width: 140%;
+  }
+  .ommåltidskasse p{
+    width: 100%;
+    padding-top: 10px;
+  }
+}
+
+
 /* Fejl 404 side */
 
 .fejl{
@@ -574,8 +584,18 @@ html {
   margin-top: 100px;
   margin-bottom: 20px;
 }
-.fejl h2,
+.fejl h1,
 .fejl h3,
 .fejl button{
   margin: 25px;
+}
+
+.knap{
+  background-color: #db2e27;
+  color: #f8f8f8;
+  font-size: 1.5vw;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid;
+  cursor: pointer;
 }
