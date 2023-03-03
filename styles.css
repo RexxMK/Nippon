@@ -749,6 +749,11 @@ i {
   padding-bottom: 200px;
 }
 
+#video_style {
+  width: 80%;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
