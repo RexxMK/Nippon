@@ -61,12 +61,12 @@ nav a {
   margin-top: -2%;
 }
 
-#underline {
+.underline {
   display: inline-block;
   position: relative;
 }
 
-#underline:after {
+.underline:after {
   cursor: pointer;
   content: "";
   position: absolute;
@@ -80,7 +80,7 @@ nav a {
   transition: transform 0.25s ease-out;
 }
 
-#underline:hover:after {
+.underline:hover:after {
   transform: scaleX(1);
 }
 
