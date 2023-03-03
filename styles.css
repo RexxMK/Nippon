@@ -15,8 +15,7 @@ h3 {
 }
 p {
   font-size: 1.5vw;
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ...button {
   font-family: "Nunito", sans-serif;
@@ -610,6 +609,8 @@ nav a {
   display: none;
   width: 97%;
   padding: 10px;
+  height: 400px;
+  
 }
 
 .container {
@@ -618,7 +619,7 @@ nav a {
 }
 @media only screen and (min-width: 890px) {
   .filterDiv {
-    width: 48%;
+    width: 47%;
   }
 
   #burger-menu {
