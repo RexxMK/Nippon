@@ -5,6 +5,11 @@
 /*SKRIFTREGLER*/
 h1 {
   font-size: 3vw;
+  color: #231f20;
+}
+
+h2 {
+  color: #231f20;
 }
 
 h3 {
@@ -38,7 +43,7 @@ nav {
 
 nav a {
   font-size: 1.4vw;
-  color: black;
+  color: #231f20;
   text-decoration: none;
 }
 
@@ -193,7 +198,7 @@ nav a {
 
 /* Hovereffekten på navfooter */
 .navfooter a:hover {
-  color: black;
+  color: #231f20;
   transition: all 0.3s ease 0s;
 }
 
@@ -233,6 +238,7 @@ nav a {
 #forsidetekst h3 {
   padding-top: 5%;
   padding-bottom: 8%;
+  color: #231f20;
 }
 
 #forsideknap a {
@@ -294,7 +300,7 @@ nav a {
 
 #bestilling form input {
   font-size: 1.2vw;
-  border: 2px solid black;
+  border: 2px solid #231f20;
   border-radius: 10px;
   padding: 4%;
   width: 80%;
@@ -307,7 +313,7 @@ nav a {
 
 #ændreknapper input {
   background-color: #f8f8f8;
-  border: 2px solid black;
+  border: 2px solid #231f20;
   font-size: 0.9vw;
   padding-left: 20px;
   padding-right: 20px;
@@ -343,7 +349,7 @@ nav a {
 
 .tilbage a {
   text-decoration: none;
-  color: black;
+  color: #231f20;
   font-size: 1.4vw;
   display: flex;
   align-items: center;
@@ -403,7 +409,7 @@ nav a {
   padding-bottom: 1.7%;
   padding-right: 26%;
 
-  border: 3px solid black;
+  border: 3px solid #231f20;
   border-radius: 10px;
 }
 
@@ -588,6 +594,11 @@ nav a {
   display: none;
   width: 97%;
   padding: 10px;
+}
+
+.container {
+  margin-left: 2.5%;
+  margin-right: 1%;
 }
 @media only screen and (min-width: 890px) {
   .filterDiv {
