@@ -1,3 +1,15 @@
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+
+
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -40,3 +52,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+
+
