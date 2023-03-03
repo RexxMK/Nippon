@@ -5,27 +5,26 @@
 /*SKRIFTREGLER*/
 h1 {
   font-size: 3vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
-  
 }
 h3 {
   font-size: 2vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
 p {
   font-size: 1.5vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
 ...button {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 2.5vw;
 }
 b {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -54,9 +53,8 @@ nav a {
   font-size: 1.4vw;
   color: #231f20;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
-  
 }
 
 #minside_icon {
@@ -264,7 +262,7 @@ nav a {
   border-radius: 20px;
   border: #db2e27;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
 
@@ -582,7 +580,7 @@ nav a {
     width: 90%;
   }
 
-  #logo{
+  #logo {
     margin-left: 7%;
   }
 }
@@ -800,9 +798,10 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5%;
 }
 .fejl img {
-  width: 55%;
+  width: 40%;
   margin-top: 100px;
   margin-bottom: 20px;
 }
@@ -810,6 +809,29 @@ html {
 .fejl h3,
 .fejl button {
   margin: 25px;
+}
+
+#fejl404_knap {
+  width: 25%;
+  margin-top: 3.5%;
+  margin-left: 2.5%;
+}
+
+#fejl404_knap a {
+  color: #f8f8f8;
+  font-size: 2.5vw;
+  text-decoration: none;
+  background-color: #db2e27;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 7.6%;
+  border-radius: 20px;
+  border: #db2e27;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
 }
 
 /* Levering side */
